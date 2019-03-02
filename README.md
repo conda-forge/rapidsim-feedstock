@@ -16,8 +16,8 @@ Summary: A fast Monte Carlo generator for simulation of heavy-quark hadron decay
 RapidSim is a fast Monte Carlo generator for simulation of heavy-quark hadron decays.
 It can be useful for generating background or toy data sets for acceptance studies.
 
-* It uses [`TGenPhaseSpace`][https://root.cern.ch/doc/master/classTGenPhaseSpace.html] to generate b/c quark hadron decays.
-* [FONLL][http://cacciari.web.cern.ch/cacciari/fonll/] is used to give the b/c the correct production kinematics for the LHC.
+* It uses [`TGenPhaseSpace`](https://root.cern.ch/doc/master/classTGenPhaseSpace.html) to generate b/c quark hadron decays.
+* [FONLL](http://cacciari.web.cern.ch/cacciari/fonll/) is used to give the b/c the correct production kinematics for the LHC.
 * The daughter particle momenta are smeared correctly using user-defined resolutions.
 * Cuts can be made on daughter particle properties (pT, eta, etc).
 * Particle mass hypotheses can be swapped to investigate effect of mis-identification.
