@@ -8,8 +8,6 @@ package:
 source:
   url: https://github.com/gcowan/RapidSim/archive/v{{ version }}.tar.gz
   sha256: 14d8043fd40805f3bc144c4e35846392de535bbfee842ea2d1ec9232c7b0c585
-  patches:
-    - conda-packaging.patch
 
 build:
   number: 0
