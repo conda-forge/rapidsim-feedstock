@@ -23,7 +23,9 @@ requirements:
     - make
     - sed
   host:
-    - root
+    - root_base
+    - root-binaries
+    - root-dependencies
 
 test:
   commands:
