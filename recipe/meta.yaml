@@ -37,6 +37,7 @@ test:
     - RapidSim.exe ${RAPIDSIM_ROOT}/validation/D02Kpi 100000
     - RapidSim.exe ${RAPIDSIM_ROOT}/validation/Lb2chicpK 100000
 
+    - conda install --yes root-binaries
     - mkdir plots
     - root -b -q -l "${RAPIDSIM_ROOT}/validation/compareHistograms.C(\"B2Kee\")"
     - root -b -q -l "${RAPIDSIM_ROOT}/validation/compareHistograms.C(\"Bs2Jpsiphi\")"
