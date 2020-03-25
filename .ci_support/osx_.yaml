@@ -17,6 +17,4 @@ macos_machine:
 macos_min_version:
 - '10.9'
 root_base:
-- 6.20.0
-root_binaries:
-- 6.20.0
+- 6.20.2
