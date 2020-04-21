@@ -10,7 +10,7 @@ source:
   sha256: 14d8043fd40805f3bc144c4e35846392de535bbfee842ea2d1ec9232c7b0c585
 
 build:
-  number: 2
+  number: 3
   skip: True  # [win]
   skip_compile_pyc:
     - "*/utils/compareParts.py"
