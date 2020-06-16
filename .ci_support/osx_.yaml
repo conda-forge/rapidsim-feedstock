@@ -1,5 +1,5 @@
 MACOSX_DEPLOYMENT_TARGET:
-- '10.9'
+- '10.13'
 c_compiler:
 - clang
 c_compiler_version:
@@ -17,4 +17,4 @@ macos_machine:
 macos_min_version:
 - '10.9'
 root_base:
-- 6.20.2
+- '6.22'
