@@ -9,7 +9,7 @@ source:
   url: https://github.com/gcowan/RapidSim/archive/v{{ version }}.tar.gz
   sha256: 14d8043fd40805f3bc144c4e35846392de535bbfee842ea2d1ec9232c7b0c585
   patches:
-    - recipe/evtgen-linking.patch
+    - evtgen-linking.patch
 
 build:
   number: 6
@@ -53,7 +53,7 @@ test:
 about:
   home: https://github.com/gcowan/RapidSim
   # Linking to EvtGen forces RapidSim to be relicensed under GPL
-  license: MIT AND GPL-2.0-or-later
+  license: MIT AND GPL-3.0-or-later
   license_file: Licence.md
   summary: 'A fast Monte Carlo generator for simulation of heavy-quark hadron decays'
   description: |
