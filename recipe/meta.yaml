@@ -50,8 +50,8 @@ test:
 
 about:
   home: https://github.com/gcowan/RapidSim
-  license: MIT
-  license_family: MIT
+  # Linking to EvtGen forces RapidSim to be relicensed under GPL
+  license: MIT AND GPL-2.0-or-later
   license_file: Licence.md
   summary: 'A fast Monte Carlo generator for simulation of heavy-quark hadron decays'
   description: |
