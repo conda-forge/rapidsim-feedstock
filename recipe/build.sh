@@ -3,6 +3,9 @@ set -eu
 
 mkdir build
 cd build
+
+export EVTGEN_ROOT=$CONDA_PREFIX
+
 cmake \
     -DCMAKE_INSTALL_PREFIX="${PREFIX}" \
     -DCMAKE_INSTALL_RPATH="${PREFIX}/lib" \
