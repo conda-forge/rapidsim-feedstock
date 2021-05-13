@@ -12,7 +12,7 @@ source:
     - evtgen-linking.patch
 
 build:
-  number: 9
+  number: 10
   skip: True  # [win]
   skip_compile_pyc:
     - "*/utils/compareParts.py"
