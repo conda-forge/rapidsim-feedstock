@@ -10,6 +10,7 @@ source:
   sha256: 14d8043fd40805f3bc144c4e35846392de535bbfee842ea2d1ec9232c7b0c585
   patches:
     - evtgen-linking.patch
+    - 0001-Remove-Werror-for-CMAKE_CXX_FLAGS.patch
 
 build:
   number: 12
