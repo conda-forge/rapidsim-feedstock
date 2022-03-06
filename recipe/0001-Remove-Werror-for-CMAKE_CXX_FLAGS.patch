@@ -1,0 +1,25 @@
+From d483ca9c69388925c67acfa232dec4c861419c74 Mon Sep 17 00:00:00 2001
+From: Chris Burr <christopher.burr@cern.ch>
+Date: Sun, 6 Mar 2022 11:49:01 +0100
+Subject: [PATCH] Remove -Werror for CMAKE_CXX_FLAGS
+
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 75fb529..bae3b16 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -28,7 +28,7 @@ EXECUTE_PROCESS(
+ 
+ SET ( CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR} )
+ 
+-set(CMAKE_CXX_FLAGS    "${CMAKE_CXX_FLAGS} -msse -msse2 -msse3 -m3dnow -fPIC -fmerge-all-constants -D__ROOFIT_NOBANNER -Wall -Wextra -Werror -Wsign-compare -Wmissing-noreturn -Wno-non-virtual-dtor")
++set(CMAKE_CXX_FLAGS    "${CMAKE_CXX_FLAGS} -msse -msse2 -msse3 -m3dnow -fPIC -fmerge-all-constants -D__ROOFIT_NOBANNER -Wall -Wextra -Wsign-compare -Wmissing-noreturn -Wno-non-virtual-dtor")
+ 
+ set(CMAKE_CXX_FLAGS_DEBUG          "-g3 -Wall")
+ set(CMAKE_CXX_FLAGS_MINSIZEREL     "-Os -DNDEBUG")
+-- 
+2.35.1
+
