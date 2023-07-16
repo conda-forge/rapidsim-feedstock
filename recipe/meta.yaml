@@ -13,7 +13,7 @@ source:
     - 0001-Remove-Werror-for-CMAKE_CXX_FLAGS.patch
 
 build:
-  number: 15
+  number: 16
   skip: True  # [win]
   skip_compile_pyc:
     - "*/utils/compareParts.py"
