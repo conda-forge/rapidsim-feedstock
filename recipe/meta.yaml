@@ -13,7 +13,7 @@ source:
     - 0001-Remove-Werror-for-CMAKE_CXX_FLAGS.patch
 
 build:
-  number: 18
+  number: 19
   skip: True  # [win]
   skip_compile_pyc:
     - "*/utils/compareParts.py"
@@ -21,16 +21,15 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - cmake
     - make
     - sed
-    - sysroot_linux-64 2.17  # [linux64]
   host:
     - root_base
     - evtgen
   run_constrained:
-    - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.9") }}  # [osx]
 
 test:
   commands:
