@@ -4,7 +4,7 @@ set -eu
 mkdir build
 cd build
 
-export EVTGEN_ROOT=$CONDA_PREFIX
+export EVTGEN_ROOT=${PREFIX}
 
 cmake \
     -DCMAKE_INSTALL_PREFIX="${PREFIX}" \
