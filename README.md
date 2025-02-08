@@ -24,7 +24,6 @@ It can be useful for generating background or toy data sets for acceptance studi
 
 A more detailed description can be found here https://arxiv.org/abs/1612.07489
 
-
 Current build status
 ====================
 
