@@ -30,8 +30,6 @@ requirements:
     - cmake
     - make
     - sed
-    - if: build_platform != target_platform
-      then: root_base
   host:
     - root_base
     - evtgen
