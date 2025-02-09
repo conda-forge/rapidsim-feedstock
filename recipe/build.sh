@@ -7,6 +7,7 @@ cd build
 export EVTGEN_ROOT=${PREFIX}
 
 cmake \
+    $CMAKE_ARGS \
     -DCMAKE_INSTALL_PREFIX="${PREFIX}" \
     -DCMAKE_INSTALL_RPATH="${PREFIX}/lib" \
     -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON \
