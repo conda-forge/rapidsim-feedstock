@@ -17,7 +17,7 @@ source:
     - 0003-Remove-Werror-for-CMAKE_CXX_FLAGS.patch
 
 build:
-  number: 22
+  number: 23
   skip: win
   python:
     skip_pyc_compilation:
