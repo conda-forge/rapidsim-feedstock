@@ -1,7 +1,7 @@
-From 5c67e6247c0dc69d629ddd0f43d191eaf52b18f3 Mon Sep 17 00:00:00 2001
+From 22058181e9afc5e6c6b13d0a8780b2d50c84b56b Mon Sep 17 00:00:00 2001
 From: Chris Burr <christopher.burr@cern.ch>
 Date: Sun, 6 Mar 2022 11:49:01 +0100
-Subject: [PATCH 3/3] Remove -Werror for CMAKE_CXX_FLAGS
+Subject: [PATCH 3/6] Remove -Werror for CMAKE_CXX_FLAGS
 
 ---
  CMakeLists.txt | 2 +-
@@ -21,5 +21,5 @@ index 0b9e201..a0cf825 100644
  set(CMAKE_CXX_FLAGS_DEBUG          "-g3 -Wall")
  set(CMAKE_CXX_FLAGS_MINSIZEREL     "-Os -DNDEBUG")
 -- 
-2.45.0
+2.48.1
 

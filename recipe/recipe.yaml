@@ -15,6 +15,9 @@ source:
     - 0001-Update-CMakeLists.txt.patch
     - 0002-Fix-linking-to-evtgen-on-macOS.patch
     - 0003-Remove-Werror-for-CMAKE_CXX_FLAGS.patch
+    - 0004-Changed-minimum-required-version-to-3.5-because-of-d.patch
+    - 0005-Use-EvtMTRandomEngine-with-same-seed-as-used-for-gRa.patch
+    - 0006-Changed-all-instances-of-gRandom-GetSeed-and-gRandom.patch
 
 build:
   number: 23

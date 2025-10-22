@@ -1,7 +1,7 @@
-From 821d08bb3867cc77c103b9054e289d64b95b70b5 Mon Sep 17 00:00:00 2001
+From e8dce0763f062b9c6592acf880e46c4fd46bcb4e Mon Sep 17 00:00:00 2001
 From: Chris Burr <christopher.burr@cern.ch>
 Date: Mon, 29 Jun 2020 08:25:36 +0200
-Subject: [PATCH 2/3] Fix linking to evtgen on macOS
+Subject: [PATCH 2/6] Fix linking to evtgen on macOS
 
 ---
  CMakeLists.txt | 8 +++++++-
@@ -27,5 +27,5 @@ index 4dbe550..0b9e201 100644
      endif()
    endif()
 -- 
-2.45.0
+2.48.1
 
