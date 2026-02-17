@@ -20,7 +20,7 @@ source:
     - 0006-Changed-all-instances-of-gRandom-GetSeed-and-gRandom.patch
 
 build:
-  number: 23
+  number: 24
   skip: win
   python:
     skip_pyc_compilation:
@@ -48,11 +48,11 @@ tests:
       - RapidSim.exe ${RAPIDSIM_ROOT}/validation/D02Kpi 100000
       - RapidSim.exe ${RAPIDSIM_ROOT}/validation/Lb2chicpK 100000
       - mkdir plots
-      - "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"B2Kee\\\")\""
-      - "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bs2Jpsiphi\\\")\""
-      - "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bd2D0rho0\\\")\""
-      - "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bs2D0Kpi\\\")\""
-      - "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"D02Kpi\\\")\""
+      - root -b -q -l "${RAPIDSIM_ROOT}/validation/compareHistograms.C(\"B2Kee\")"
+      - root -b -q -l "${RAPIDSIM_ROOT}/validation/compareHistograms.C(\"Bs2Jpsiphi\")"
+      - root -b -q -l "${RAPIDSIM_ROOT}/validation/compareHistograms.C(\"Bd2D0rho0\")"
+      - root -b -q -l "${RAPIDSIM_ROOT}/validation/compareHistograms.C(\"Bs2D0Kpi\")"
+      - root -b -q -l "${RAPIDSIM_ROOT}/validation/compareHistograms.C(\"D02Kpi\")"
 
 about:
   # Linking to EvtGen forces RapidSim to be relicensed under GPL
