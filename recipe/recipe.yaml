@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: rapidsim
-  version: 1.5
+  version: "1.5"
 
 package:
   name: ${{ name|lower }}
