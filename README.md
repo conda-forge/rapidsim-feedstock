@@ -28,7 +28,14 @@ Current build status
 ====================
 
 
-<table>
+<table><tr>
+    <td>GitHub Actions</td>
+    <td>
+      <a href="https://github.com/conda-forge/rapidsim-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/rapidsim-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
+    </td>
+  </tr>
     
   <tr>
     <td>Azure</td>
@@ -42,59 +49,24 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_root_base6.36.8</td>
+              <td>osx_64_root_base6.36.10</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6306&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rapidsim-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_root_base6.36.8" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rapidsim-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_root_base6.36.10" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_root_base6.38.0</td>
+              <td>osx_64_root_base6.38.4</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6306&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rapidsim-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_root_base6.38.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rapidsim-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_root_base6.38.4" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_root_base6.36.8</td>
+              <td>osx_64_root_base6.40.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6306&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rapidsim-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_root_base6.36.8" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_root_base6.38.0</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6306&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rapidsim-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_root_base6.38.0" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_root_base6.36.8</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6306&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rapidsim-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_root_base6.36.8" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_root_base6.38.0</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6306&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rapidsim-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_root_base6.38.0" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_root_base6.36.8</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6306&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rapidsim-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_root_base6.36.8" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_root_base6.38.0</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6306&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rapidsim-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_root_base6.38.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rapidsim-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_root_base6.40.0" alt="variant">
                 </a>
               </td>
             </tr>

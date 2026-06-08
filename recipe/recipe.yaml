@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: rapidsim
-  version: 1.5
+  version: "1.5"
 
 package:
   name: ${{ name|lower }}
@@ -20,7 +20,7 @@ source:
     - 0006-Changed-all-instances-of-gRandom-GetSeed-and-gRandom.patch
 
 build:
-  number: 24
+  number: 25
   skip: win
   python:
     skip_pyc_compilation:
