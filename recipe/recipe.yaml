@@ -20,7 +20,7 @@ source:
     - 0006-Changed-all-instances-of-gRandom-GetSeed-and-gRandom.patch
 
 build:
-  number: 25
+  number: 26
   skip: win
   python:
     skip_pyc_compilation:
