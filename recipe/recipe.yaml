@@ -20,7 +20,7 @@ source:
     - 0006-Changed-all-instances-of-gRandom-GetSeed-and-gRandom.patch
 
 build:
-  number: 27
+  number: 28
   skip: win
   python:
     skip_pyc_compilation:
@@ -40,6 +40,7 @@ requirements:
 
 tests:
   - script:
+      - test "${RAPIDSIM_ROOT}" = "${PREFIX}/share/rapidsim"
       - RapidSim.exe ${RAPIDSIM_ROOT}/validation/B2Kee 1000 1
       - RapidSim.exe ${RAPIDSIM_ROOT}/validation/B2Kee 100000
       - RapidSim.exe ${RAPIDSIM_ROOT}/validation/Bs2Jpsiphi 100000
